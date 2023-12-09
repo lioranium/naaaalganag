@@ -1,36 +1,122 @@
-<title>YourMom</title>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
+<script>
+    document.cookie = "skibidi=sticking out your gyatt for the rizzler";
+    document.cookie = "youre=so skibidi I am so fantum tax";
+</script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorite Video</title>
+    <title>My Favorite Media</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            background: url(airport.jpg)
+            background: url('airport.jpg') center/cover no-repeat;
         }
-        video {
-            max-width: 100%;
-            max-height: 100%;
+        h1, h2, h3 {
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            margin: 10px 0;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 2px solid #fff;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 2px solid #fff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1em;
+            color: #333;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+            background-color: rgba(200, 200, 255, 0.7);
+            border: 1.5px solid #fff;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        video, audio {
+            max-width: 50%;
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .media-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .video-container,
+        .audio-container {
+            flex: 1;
+        }
+        .trademark {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
 
-    <video controls loop autoplay>
-        <source src="sneed.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <h1>The Oficial Naaaalgang Website</h1>
+
+    <div class="media-container">
+        <div class="video-container">
+            <h2>Muse alt-j</h2>
+            <video controls loop autoplay>
+                <source src="sneed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="audio-container">
+            <h2>sneed Moments</h2>
+            <h3>Sneed Moment 1</h3>
+            <audio controls>
+                <source src="sneedMoment1.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <h3>Sneed Moment 2</h3>
+            <audio controls>
+                <source src="SneedMoment2.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <h3>כואב לי הטוסיק</h3>
+            <audio controls>
+                <source src="Tusic.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+    </div>
+
+    <div class="trademark">
+        &copy; 2023 NaaalGang Corporate. All rights reserved.
+    </div>
+
 </body>
 </html>
-
